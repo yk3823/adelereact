@@ -1,11 +1,13 @@
-import ListGroup from "./components/ListGroup";
-import Like from "./components/Like";
-import "./App.css";
-import { BsFillCalendarFill } from "react-icons/bs";
+// import ListGroup from "./components/ListGroup";
+
+// import Like from "./components/From";
+// import "./App.css";
+// import { BsFillCalendarFill } from "react-icons/bs";
+import From from "./components/From";
 function App() {
   return (
     <div>
-      <Like onClick={() => console.log("chicked")} />
+      <From />
     </div>
   );
 }
